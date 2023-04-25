@@ -3,10 +3,10 @@ import React, { useState } from "react";
 import QRCode from "react-qr-code";
 
 const App = (): JSX.Element => {
-  const [back, setBack] = useState("#3b82f6");
-  const [fore, setFore] = useState("#ffffff");
+  const back = "#3b82f6";
+  const fore = "#ffffff";
 
-  const [modalQR, setModalQR] = useState("This is the QR code test project");
+  const modalQR = "This is the QR code test project";
 
   return (
     <div className="bg-LightGray min-h-screen flex justify-center items-center">
